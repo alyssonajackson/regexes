@@ -1,1 +1,15 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                   #
+# Regular expression for extracting nickname from URL / String      #
+#                                                                   #
+# Public repository: https://github.com/alyssonajackson/regexes     #
+#                                                                   #
+# Author: Alysson Ajackson - www.alysson.net                        #
+#                                                                   #
+# Date: Tue Oct 16 15:38:50 BRT 2012                                #
+#                                                                   #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 ^.*(?:\/|@)([A-Za-z0-9_.-]+).*$
+
+#^.*((?<![\/@])[A-Za-z0-9_.-]+).*$
